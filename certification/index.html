@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                padding: 0;
+                margin-left: 5px;
+                margin-right: 5px;
+                text-decoration: none;
+                
+            }
+            body{
+                background: #99A3A4;
+            }
+            .parent{
+                width: 100%;
+                margin-top: 35px;
+                position: relative;
+            }
+            a{
+                margin: 0;
+                padding: 0;
+            }
+            .child{
+                height: auto;
+                width: 300px;
+                position: absolute;
+            }
+            dd{
+                color: blue;
+                margin: 5px 30px;
+            }
+            img{
+                height: 200px;
+                width:300px;
+            }
+            .one{left: 5%;}
+            .two{
+                left: 35%;
+            }
+            .three{
+                left: 65%;
+            }
+            .forth{
+                margin-top: 320px;
+                left: 5%;
+            }
+            .fifth{
+                margin-top: 320px;
+                left: 35%;
+            }
+            .sixth{
+                margin-top: 320px;
+                left: 65%;
+            }
+            .dark{
+                height: 45%;
+                color: white;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;  
+                background-color: rgba(0,0,0,0.7);
+                z-index: 9;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Certificates </title>
+    </head>
+    
+    <body>
+        <div>
+            <h1 class="name"><center>Nikhil Manocha</center></h1>
+            <h5>
+                <dl><center>
+                    <dt>Email</dt>
+                    <a href='nikhilmanocha99@gmail.com'><dd>nikhilmanocha99@gmail.com</dd></a>
+                    <dt>GitHub</dt>
+                    <a href="https://github.com/nikhilmanocha99"><dd>https://github.com/nikhilmanocha99</dd></a>
+                    <dt>Linkedin</dt>
+                    <a href="https://www.linkedin.com/in/nikhil-manocha-4101331a9"><dd>https://www.linkedin.com/in/nikhil-manocha-4101331a9</dd></a>
+                    </center>
+                </dl>
+                <hr>
+            </h5>
+        </div>
+        <div class="parent">
+            <div class="child one">
+                <a href="pdf/html5.pdf"><img src="images/Html.png" alt="HTML certificate" title="HTML5"></a>
+                <div class="dark"><center>
+                    <h3>HTML5</h3>
+                    <p>Coursera</p></center>
+                </div>
+            </div>
+            <div class="child two">
+                <a href="pdf/advance%20styling.pdf"><img src="images/AdvanceStyling.png" alt="Styling certificate" title="Advance styling"></a>
+                <div class="dark"><center>
+                    <h3>Advance Styling</h3>
+                    <p>Coursera</p></center>
+                </div>
+            </div>
+            <div class="child three">
+                <a href="pdf/django.pdf"><img src="images/Django.png" alt="Django certificate" title="Django"></a>
+                <div class="dark"><center>
+                    <h3>Django</h3>
+                    <p>Ducat</p></center>
+                </div>
+            </div>
+            <div class="child forth">
+                <a href="pdf/C.pdf"><img src="images/C.png" alt="C language certificate" title="C"></a>
+                <div class="dark"><center>
+                    <h3>C lang</h3>
+                    <p>Spoken Tut.</p></center>
+                </div>
+            </div>
+            <div class="child fifth">
+                <a href="pdf/C++.pdf"><img src="images/C++.png" alt="Advance C++ certificate" title="C++"></a>
+                <div class="dark"><center>
+                    <h3>Advance C++</h3>
+                    <p>Spoken tut.</p></center>
+                </div>
+            </div>
+            <div class="child sixth">
+                <a href="pdf/ml.pdf"><img src="images/ML.png" alt="Machine learning certificate" title="Machine learning"></a>
+                <div class="dark">
+                <center>
+                    <h3>Machine learning</h3>
+                    <p>Ducat</p></center></div>
+            </div>
+        </div>
+    </body>
+</html>
